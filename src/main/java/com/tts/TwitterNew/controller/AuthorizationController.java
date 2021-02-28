@@ -20,7 +20,7 @@ public class AuthorizationController {
     @Autowired
     private UserService userService;
 
-    @GetMapping(value="/login")
+    @GetMapping(value = "/login")
     public String login(){
         return "login";
     }

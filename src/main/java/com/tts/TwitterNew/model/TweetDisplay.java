@@ -1,5 +1,7 @@
 package com.tts.TwitterNew.model;
 
+import javax.persistence.Entity;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,4 +20,10 @@ public class TweetDisplay {
     private String date;
     private List<Tag> tags;
 
+
+
 }
+
+
+
+

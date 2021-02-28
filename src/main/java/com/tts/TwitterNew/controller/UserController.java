@@ -33,6 +33,9 @@ public class UserController {
         User user = userService.findByUsername(username);
         List<TweetDisplay> tweets = tweetService.findAllByUser(user);
         List<User> following = loggedInUSer.getFollowing();
+
+
+
         boolean isFollowing = false;
 
         for (User followedUser : following) {
